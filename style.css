@@ -3,6 +3,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* start header */
 section{
     display: flex;
     background-color: #2D25A0;
@@ -176,7 +177,8 @@ main{
 footer:hover .logo >img{
     transform: scale(1.3);
 }
-
+/* --------------------------Mobile Mode---------------
+------------------------------------------------------ */
 @media only screen and (max-width:688px) {
     
     body{
@@ -210,6 +212,10 @@ footer:hover .logo >img{
         margin-left: 50%;
     }
 }
+
+/*------------------- Pad Mode-----------------
+--------------------------------------------- */
+
 @media only screen and (min-width:688px) and (max-width:992px) {
     
     body{
